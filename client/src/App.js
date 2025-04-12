@@ -16,7 +16,7 @@ function App() {
       const res = await axios.get(`http://localhost:5000/weather?city=${city}`);
       setWeatherData(res.data);
     } catch (err) {
-      setError('City not found or server error.');
+      alert('City not found | please enter a valid city name');
       setWeatherData(null);
     } finally {
       setLoading(false);
@@ -25,10 +25,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>🌦️ Real-Time Weather Dashboard</h1>
+      <h1>🧐 Real-Time Weather Dashboard</h1>
+      <hr/><br/>
       <SearchBar onSearch={fetchWeather} />
-      {loading && <p>Loading...</p>}
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+      {loading && <p>🔯 Loading...</p>}
       <WeatherCard weather={weatherData} />
     </div>
   );
