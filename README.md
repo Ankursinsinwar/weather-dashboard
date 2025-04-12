@@ -41,6 +41,7 @@ weather-dashboard/
 │ ├── components/
 │ │ ├── SearchBar.jsx
 │ │ └── WeatherCard.jsx
+│ ├── App.css
 │ ├── App.js
 │ └── index.js
 │ └── package.json
