@@ -26,7 +26,7 @@ A full-stack weather dashboard built using the **MERN** stack (MongoDB, Express.
     
 *   **Backend**: Node.js, Express, Axios, dotenv
     
-*   **API**: [OpenWeatherMap](https://openweathermap.org/)
+*   **API**: [OpenWeatherMap](https://openweathermap.org/appid)
     
 *   **Optional Deployment**: Vercel (frontend) + Render/Heroku (backend)
     
@@ -63,20 +63,20 @@ weather-dashboard/
 
 1.  Navigate to the server/ folder
     
-2.  Install dependencies using npm install
+2.  Install dependencies using `npm install` or `npm i`
     
-3.  Create a .env file with your OpenWeatherMap API key
+3.  Create a `.env` file with your OpenWeatherMap API key, write your api key `Weather_API = API_KEY`
     
-4.  Run the server using node server.js
+4.  Run the server using `node server.js`
     
 
-### 🎨 Frontend Setup
+### ⚛️ Frontend Setup
 
 1.  Navigate to the client/ folder
     
-2.  Run npm install to install dependencies
+2.  Run `npm install` or `npm i` to install dependencies
     
-3.  Start the app with npm start
+3.  Start the app with `npm start`
     
 
 🧪 Testing
